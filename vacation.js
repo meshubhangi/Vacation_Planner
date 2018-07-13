@@ -3,9 +3,9 @@ var greeting = document.getElementById("greeting");
 greeting.innerHTML += ", " + name;
 var enterDays = document.getElementById("enterDays");
 enterDays.onclick = calculateDays;
-function calculateDays(){
-    var daysInput = document.getElementById("days");
+var daysInput = document.getElementById("days");
     var days = daysInput.value;
+function calculateDays(){
     var daysMessage = document.getElementById("daysMessage");
      if(days < 4){
          daysMessage.innerHTML = "Short trips are always worth it!";
