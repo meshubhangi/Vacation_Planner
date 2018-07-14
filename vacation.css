@@ -17,7 +17,7 @@ form label{
     display: inline;
 }
 body h1{
-    color: rgb(128, 46, 46);
+    color: rgb(124, 235, 243);
 }
 
 strong{
@@ -26,7 +26,7 @@ strong{
 
 section{
     background-color: rgb(241, 233, 157);
-    border: rgb(151, 123, 214) 3px dotted;
+    border: rgb(161, 144, 202) 3px dotted;
     width: 80%;
     margin: 5px auto;
     color: #4a20ac;
@@ -35,11 +35,11 @@ section{
 }
 
 section h2{
-    color: rgb(199, 143, 187);
+    color: rgb(207, 10, 165);
 }
 
 .error{
-color: rgb(204, 110, 110);
+color: rgb(211, 11, 11);
 }
 
 input{
