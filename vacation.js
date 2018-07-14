@@ -1,8 +1,3 @@
-var name = window.prompt("Hello! Please enter your name");
-var greeting = document.getElementById("greeting");
-greeting.innerHTML += ", " + name;
-var enterDays = document.getElementById("enterDays");
-enterDays.onclick = calculateDays;
 function calculateDays(){
     var daysMessage = document.getElementById("daysMessage");
      if(days < 4){
